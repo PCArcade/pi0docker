@@ -1,4 +1,3 @@
-# pi0docker
 ## pi-hole for PiZero
 
 ### If you have an adafruit minipitft and want pi-hole to display stats to the following  :
