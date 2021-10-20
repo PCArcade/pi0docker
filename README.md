@@ -14,3 +14,7 @@ Probably shouldn't be needed but it doesn't seem to work without it
 When the pi0 is booted the IP address will be displayed on the screen, set either your routers DNS to this, ot the DNS field on the device you want to block ads on
   
 Admin and DHCP etc can be administered at http://pi-hole.local/admin 
+  
+unbound documentation can be found at : https://github.com/MatthewVance/unbound-docker
+  
+pihole documentation can be found at : https://docs.pi-hole.net/
