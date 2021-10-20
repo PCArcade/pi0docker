@@ -8,11 +8,11 @@ services:
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-#      - "67:67/udp"
+      - "67:67/udp" # comment this line if you don't want to use Pi-Hole for DHCP
       - "80:80/tcp"
     environment:
       TZ: 'America/Chicago'
-      # WEBPASSWORD: 'set a secure password here or it will be random'
+      WEBPASSWORD: ${PIPASS}
     # Volumes store your data between container upgrades
     volumes:
       - './etc-pihole/:/etc/pihole/'
